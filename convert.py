@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 # Токен бота (получи у @BotFather)
-TOKEN = '8706371143:AAEFf8mCWPzzAESMdPt8PHgB9qXDhFZmLmg'
+TOKEN = 'your token'
 
 # Инициализация бота
 bot = telebot.TeleBot(TOKEN)
@@ -299,4 +299,5 @@ def handle_message(message):
 # Запуск бота
 if __name__ == '__main__':
     print("Бот запущен...")
+
     bot.infinity_polling()
